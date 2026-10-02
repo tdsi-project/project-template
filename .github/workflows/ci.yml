@@ -1,0 +1,23 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: pytest -q
+      - name: Execute demo notebook (CPU, must finish in time)
+        run: |
+          jupyter nbconvert --to notebook --execute notebooks/demo.ipynb \
+            --ExecutePreprocessor.timeout=600 --output /tmp/demo_out.ipynb

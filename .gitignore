@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+.env
+# data and weights
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.npz
+# codecarbon
+emissions.csv
+# LaTeX build
+*.aux
+*.log
+*.out
+*.synctex.gz

@@ -1,0 +1,17 @@
+name: isp-project
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - pandas
+  - jupyter
+  - pytest
+  - pip
+  - pip:
+      - codecarbon
+# Add pinned versions of your key libraries before submission.

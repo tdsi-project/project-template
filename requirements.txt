@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+scikit-image
+scikit-learn
+pandas
+jupyter
+nbconvert
+codecarbon
+pytest
+# Add pinned versions of your key libraries before submission, e.g. torch==2.x
