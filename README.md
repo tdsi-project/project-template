@@ -1,7 +1,14 @@
 # [Project title]
 
-**Course:** Image & Signal Processing, MSc [year] · **Group:** [XX] · **Members:** [Name 1, Name 2, Name 3]
-**Instructor:** [name] · **Rules and grading:** see [`docs/PROJECT_RULES.md`](docs/PROJECT_RULES.md)
+**Course:** Image & Signal Processing Option, INSA Lyon, [202X] 
+
+**Group:** [XX]
+
+**Members:** [Name 1, Name 2, Name 3]
+
+**Instructor:** [name]
+
+**Rules and grading:** see the [`info`](../info/README.md) repository
 
 ## 1. Problem
 [2–4 sentences: what task, why it matters, which data, which metrics.]
@@ -31,7 +38,9 @@ conda env create -f environment.yml && conda activate isp-project
 ```
 
 Data: see [`data/README.md`](data/README.md).
+
 Demo: open `notebooks/demo.ipynb` (runs in < 10 min on CPU or free Colab).
+
 Colab: [add an "Open in Colab" badge once the repo is pushed.]
 
 ## 5. Repository structure
@@ -48,7 +57,7 @@ tests/        small sanity tests (optional but encouraged)
 See [`docs/footprint.md`](docs/footprint.md).
 
 ## 7. Use of AI tools
-See the individual statements in [`docs/individual_statements.md`](docs/individual_statements.md).
+See the individual statements in [`docs/ai_usage.md`](docs/ai_usage.md).
 
 ## 8. References
 [Papers, datasets, code you reused.]
