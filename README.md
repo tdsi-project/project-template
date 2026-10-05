@@ -8,7 +8,7 @@
 
 **Instructor:** [name]
 
-**Rules and grading:** see the [`info`](../info/README.md) repository
+**Rules and grading:** see the [`info`](https://github.com/tdsi-project/info) repository
 
 ## 1. Problem
 [2–4 sentences: what task, why it matters, which data, which metrics.]
